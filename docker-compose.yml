@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    environment:
+      - YT_API_KEY=${YT_API_KEY}
+    volumes:
+      - ./outputs:/app/outputs
+    depends_on: []
+  # For production/dev scaling, add redis, postgres, and a worker (Celery) service here.

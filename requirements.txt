@@ -1,0 +1,17 @@
+# Core dependencies
+google-api-python-client>=2.108.0
+pandas>=2.1.0
+numpy>=1.24.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+
+# NLP and text processing
+nltk>=3.8.1
+textblob>=0.17.1
+
+# Environment and config (optional but recommended)
+python-dotenv>=1.0.0
+
+# For Jupyter notebooks (optional)
+jupyter>=1.0.0
+ipykernel>=6.26.0
